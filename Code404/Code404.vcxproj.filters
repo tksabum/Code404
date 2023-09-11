@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{da0060af-0b69-4abf-8e7b-27836a8fec69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{b557fe97-acbd-4e83-a42b-6dd8e15b8f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KSC">
+      <UniqueIdentifier>{6f9df96c-b0df-4e18-93e2-70555dafc614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KSC\ObjectPoolSystem">
+      <UniqueIdentifier>{836d7d80-69ef-40f9-8abc-6d4609f512a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{34f92599-7d89-45c0-bcb6-c454a6242257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{96f67ec7-bbed-4b2d-9dc4-68af5a0ac3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Component">
+      <UniqueIdentifier>{1d837489-e3f7-4106-9e3c-75a3f925a647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Skill">
+      <UniqueIdentifier>{c7f4775b-76d0-4793-801c-6a2203f13a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\Skill\Component">
+      <UniqueIdentifier>{e752ceae-60ab-4e56-9fa2-24847d2fa724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Sample">
+      <UniqueIdentifier>{9b8aaccc-23cd-4d36-bb02-6dc5f10bddd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage1">
+      <UniqueIdentifier>{7e591f71-eb2e-4de9-8027-0abe2c4437c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage2">
+      <UniqueIdentifier>{a512dae9-a045-4339-bf9a-e9e2da1950af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JKH">
+      <UniqueIdentifier>{5ec69624-d7d8-4c2f-be8d-2d97b3148ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="LevelManager">
+      <UniqueIdentifier>{65528496-94b8-4d23-8274-359053994ee6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPoolSystem.cpp">
+      <Filter>KSC\ObjectPoolSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPoolTest.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationTest.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneController.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UITest.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Idle_State.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Patrol_State.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Die_State.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace_State.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalAttack_State.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundDetect.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeDetect.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpTrigger.cpp">
+      <Filter>Player\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHand.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowDagger.cpp">
+      <Filter>Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Dagger.cpp">
+      <Filter>Player\Skill\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraShake.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugInfo.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="BossNormalBullet.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Patrol.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Twinkling.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="TwinklingTest.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene.cpp">
+      <Filter>Scene\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene2.cpp">
+      <Filter>Scene\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene3.cpp">
+      <Filter>Scene\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene4.cpp">
+      <Filter>Scene\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBar.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHpBar.cpp">
+      <Filter>Player\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMpBar.cpp">
+      <Filter>Player\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackCollider.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectFactory.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="laser.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEye.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimTest.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectPlayer.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="WithdrawDagger.cpp">
+      <Filter>Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowUniqueDagger.cpp">
+      <Filter>Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="UniqueDagger.cpp">
+      <Filter>Player\Skill\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Dash.cpp">
+      <Filter>Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Hit_State.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDebug.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="WallEnemyDetect.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackTrigger.cpp">
+      <Filter>Player\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserScaleUp.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1_1.cpp">
+      <Filter>Scene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1_2.cpp">
+      <Filter>Scene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1_3.cpp">
+      <Filter>Scene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillCoolTimeViewer.cpp">
+      <Filter>Player\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHandRedOpacity.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1_4.cpp">
+      <Filter>Scene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="UISoundController.cpp">
+      <Filter>JKH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BJEngine\EventTrigger.cpp">
+      <Filter>JKH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BJEngine\BlackMask.cpp">
+      <Filter>JKH</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>JKH</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageEvent.cpp">
+      <Filter>JKH</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageManager.cpp">
+      <Filter>JKH</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1_5.cpp">
+      <Filter>Scene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeLaser.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2_1.cpp">
+      <Filter>Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2_2.cpp">
+      <Filter>Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2_3.cpp">
+      <Filter>Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2_4.cpp">
+      <Filter>Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2_5.cpp">
+      <Filter>Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2_7.cpp">
+      <Filter>Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2_9.cpp">
+      <Filter>Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStealthCounter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialKey.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BossSceneEvent.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene5.cpp">
+      <Filter>Scene\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollingBackGround.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BossCutSceneController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CutScenePlayer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PrevBossScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="KSCStage.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ParryingSystem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugHand.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyHpBar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BGMSoundController.cpp">
+      <Filter>JKH</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEndingCutScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2_6.cpp">
+      <Filter>Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2_8.cpp">
+      <Filter>Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="EndCutSceneController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameSettingUIController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemMove.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene6.cpp">
+      <Filter>Scene\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="NewBossCutSceneController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BJEngine\Level.cpp">
+      <Filter>LevelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePause.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainSceneAnimation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationToScene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ObjectPoolSystem.h">
+      <Filter>KSC\ObjectPoolSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPoolTest.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationTest.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneController.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UITest.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Idle_State.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Patrol_State.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Die_State.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace_State.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalAttack_State.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundDetect.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeDetect.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpTrigger.h">
+      <Filter>Player\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHand.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowDagger.h">
+      <Filter>Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Dagger.h">
+      <Filter>Player\Skill\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraShake.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugInfo.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BossNormalBullet.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Code404.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Patrol.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Twinkling.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="TwinklingTest.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene.h">
+      <Filter>Scene\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene2.h">
+      <Filter>Scene\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene3.h">
+      <Filter>Scene\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene4.h">
+      <Filter>Scene\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBar.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHpBar.h">
+      <Filter>Player\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMpBar.h">
+      <Filter>Player\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackCollider.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="laser.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEye.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimTest.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectPlayer.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="WithdrawDagger.h">
+      <Filter>Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowUniqueDagger.h">
+      <Filter>Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="UniqueDagger.h">
+      <Filter>Player\Skill\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Dash.h">
+      <Filter>Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Hit_State.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDebug.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="WallEnemyDetect.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackTrigger.h">
+      <Filter>Player\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserScaleUp.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1_1.h">
+      <Filter>Scene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1_2.h">
+      <Filter>Scene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1_3.h">
+      <Filter>Scene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillCoolTimeViewer.h">
+      <Filter>Player\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHandRedOpacity.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1_4.h">
+      <Filter>Scene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="UISoundController.h">
+      <Filter>JKH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BJEngine\EventTrigger.h">
+      <Filter>JKH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BJEngine\BlackMask.h">
+      <Filter>JKH</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>JKH</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageEvent.h">
+      <Filter>JKH</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageManager.h">
+      <Filter>JKH</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1_5.h">
+      <Filter>Scene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeLaser.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2_1.h">
+      <Filter>Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2_2.h">
+      <Filter>Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2_3.h">
+      <Filter>Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2_4.h">
+      <Filter>Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2_5.h">
+      <Filter>Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2_7.h">
+      <Filter>Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2_9.h">
+      <Filter>Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStealthCounter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialKey.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BossSceneEvent.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene5.h">
+      <Filter>Scene\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollingBackGround.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BossCutSceneController.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CutScenePlayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PrevBossScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KSCStage.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ParryingSystem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BGMSoundController.h">
+      <Filter>JKH</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugHand.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyHpBar.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEndingCutScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2_6.h">
+      <Filter>Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2_8.h">
+      <Filter>Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="EndCutSceneController.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameSettingUIController.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemMove.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene6.h">
+      <Filter>Scene\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="NewBossCutSceneController.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BJEngine\Level.h">
+      <Filter>LevelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePause.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSceneAnimation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationToScene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
